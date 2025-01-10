@@ -1,0 +1,68 @@
+.doc-viewer-container {
+    position: relative;
+    width: 100%;
+    max-height: 97vh;
+    user-select: none;
+    overflow: hidden
+}
+
+.doc-viewer-container iframe {
+    user-select: none
+}
+
+.doc-viewer-container #proxy-renderer {
+    overflow-y: hidden
+}
+
+.doc-viewer-container .doc-viewer-container-bottom {
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background-color: #fff
+}
+
+.pdf-viewer-container {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    user-select: none
+}
+
+.pdf-viewer-container * {
+    font-family: inherit
+}
+
+.pdf-viewer-container .pdf-viewer-pagination-wrap {
+    position: absolute
+}
+
+.pdf-viewer-container .pdf-viewer-pagination-main {
+    position: fixed;
+    z-index: 1;
+    background-color: #fff !important;
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: center
+}
+
+.pdf-viewer-container .pdf-viewer-pagination-main .pdf-viewer-pagination-item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px
+}
+
+.pdf-viewer-container .pdf-viewer-pagination-main .pdf-viewer-pagination-item .pdf-viewer-pagination-nav {
+    display: flex;
+    align-items: center;
+    cursor: pointer
+}
+
+.pdf-viewer-container .pdf-viewer-pagination-main .pdf-viewer-pagination-item .pdf-viewer-pagination-nav.disabled {
+    cursor: default
+}
