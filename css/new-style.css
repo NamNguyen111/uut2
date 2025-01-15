@@ -161,18 +161,22 @@
 	background-size: contain;
 	width: 100%;
 	position: relative;
-	z-index: 10;
+	z-index: 1000000 !important;
 }
 .newBackgroundHeader .second-header-panel{
 	background: transparent;
 }
 .newBackgroundHeader .second-header-panel .navbar-nav-header-panel>li>button{
-	color: white;
+	color: #ffffff;
 }
+
+/*Hover di chuột*/
 .newBackgroundHeader .second-header-panel .navbar-nav-header-panel>li>button:hover, .newBackgroundHeader .second-header-panel .navbar-nav-header-panel>li>button.ACTIVE{
 	color: #AA1D2B;
 	background-color: white;
 }
+
+/* Nút login*/
 .newBackgroundHeader .btn-login-main-style {
 	background: transparent;
 	border: 1px solid white;
@@ -257,6 +261,7 @@
 	text-transform: uppercase;
 }
 
+/*Tên trường 1*/
 .first-header-logo-panel .web-name-title {
 	font-weight: 500;
 	font-size: 18px;
@@ -269,6 +274,7 @@
 	}
 }
 
+/*Tên Trường 2*/
 .first-header-logo-panel .school-name-title {
 	font-size: 15px;
 	color: white;
@@ -922,7 +928,7 @@
 	left: -15px;
 	top: 3px;
 	font-size: 15px;
-	color: red;
+	color: orange;
 	display: inline-block;
 	font: normal normal normal 14px/1 FontAwesome;
 	font-size: inherit;
@@ -2837,7 +2843,7 @@
 }
 
 .cellTableWarning {
-	background-color: red;
+	background-color: orange;
 }
 
 .calendarPanel{
@@ -3672,7 +3678,7 @@
 }
 .submenu-custom ul li button:hover{
 	color: white;
-	background: #AA1D2B;
+	background: #fb8401;
 }
 .submenu-custom .textProcess{
 	height: 100%;
@@ -3685,14 +3691,14 @@
 	cursor: pointer;
 }
 .submenu-custom:hover .textProcess{
-	background: #AA1D2B;
+	background: rgba(251, 132, 1, 0.94);
 	color: white;
 }
 .submenu-custom:hover ul{
 	display: block;
 }
 .textProcess.ACTIVE{
-	background: #AA1D2B;
+	background: rgba(251, 132, 1, 0.86);
 	color: white;
 }
 .custom-list-btn-save{
@@ -3703,19 +3709,19 @@
 	margin: 0 15px;
 }
 .custom-list-btn-save tr td:nth-child(1) button{
-	border-color:#AA1D2B;
-	color: #AA1D2B;
+	border-color: #fb8401;
+	color: rgba(251, 132, 1, 0.94);
 	border-radius: 5px;
 	background: white;
-	border: 1.5px solid #AA1D2B;
+	border: 1.5px solid #fb8401;
 	font-weight: 500;
 }
 .custom-list-btn-save tr td:nth-child(2) button{
-	border-color:#AA1D2B;
+	border-color: rgba(251, 132, 1, 0.86);
 	color: white;
 	border-radius: 5px;
-	background: #AA1D2B;
-	border: 1.5px solid #AA1D2B;
+	background: rgba(251, 132, 1, 0.94);
+	border: 1.5px solid rgba(251, 132, 1, 0.86);
 	font-weight: 500;
 	padding: 5px 20px;
 }
@@ -3934,7 +3940,7 @@
 
 }
 .itemCoursePanel:hover .show-detail-course{
-	background: linear-gradient(46.86deg, #FF6443 14.79%, #FF9D43 89.01%);
+	background: linear-gradient(46.86deg, #fb8401 14.79%, #FF9D43 89.01%);
 	color: white;
 	border-radius: 15px;
 
@@ -4021,7 +4027,7 @@
 }
 .list-q-a .item:hover .xem-chi-tiet{
 	color: white;
-	background: #EE1C46;
+	background: rgba(251, 132, 1, 0.94);
 }
 .list-q-a .item:hover  .xem-chi-tiet img{
 	filter: invert(5) sepia(0) saturate(1) hue-rotate(0deg) brightness(5);
@@ -4044,7 +4050,7 @@
 	background: #f6f5f5;
 }
 .customBanner .newBackgroundHeader .web-name-title{
-	color: #ff2d00;
+	color: #e38f06;
 	font-weight: 600;
 }
 .customBanner .newBackgroundHeader .school-name-title{
@@ -4056,12 +4062,12 @@
 	border: 1px solid #ccc;
 	border-radius: 8px;
 	color: white;
-	background: #EE1C46;
+	background: #fb8401;
 	font-weight: 600;
 
 }
 .customBanner .newBackgroundHeader .second-header-panel{
-	background: #EE1C46;
+	background: rgba(251, 132, 1, 0.86);
 }
 
 .customBanner .newBackgroundHeader .second-header-fixed{
@@ -4097,7 +4103,7 @@
 	margin-right: 50px;
 }
 .block-tuyen-sinh-home .tuyen-sinh .item-block-tuyen-sinh .itemm h2{
-	color: #EE1C46;
+	color: rgba(251, 132, 1, 0.94);
 	text-decoration: underline;
 	text-transform: capitalize;
 	font-weight: 600;
@@ -4116,7 +4122,7 @@
 }
 .block-tuyen-sinh-home .register-now button{
 	border: 0;
-	background: #EE1C46;
+	background: #fb8401;
 	color: white;
 	padding: 10px 20px;
 	font-weight: 600;
@@ -4131,7 +4137,7 @@
 	right: -25px;
 	bottom: -25px;
 	background-color: white;
-	color: #EE1C46;
+	color: rgba(251, 132, 1, 0.86);
 	box-shadow: 0px 10px 20px rgba(157, 179, 255, 0.25);
 	padding: 20px 15px;
 	border-radius:10px;
@@ -4221,8 +4227,8 @@
 }
 
 .services-for-teachers .block-services-for-teachers .item-services .itemm:hover .info-item-services .btn button{
-	background: #EE1C46;
-	border:#EE1C46 1px solid;
+	background: rgba(251, 132, 1, 0.94);
+	border: #e38f06 1px solid;
 	color: white;
 }
 .services-for-students{
@@ -4276,7 +4282,7 @@
 
 .step-manual li{
 	font-weight: bold;
-	color: #EE1C46;
+	color: #fb8401;
 	margin-bottom: 15px;
 	font-size: 16px;
 }
@@ -4820,7 +4826,7 @@
 
 }
 .btn-delete-topic{
-	background-color: #FF0000 !important;
+	background-color: rgba(251, 132, 1, 0.86) !important;
 	text-align: center;
 	font-weight: 600 !important;
 	border: 1px solid !important ;
@@ -5114,7 +5120,7 @@
 }
 .footerHvmmPanel .sub-footer{
 	padding: 30px 0;
-	background: #E90125;
+	background: rgba(251, 132, 1, 0.94);
 	color: #F2F6FC;
 	text-transform: uppercase;
 	font-size: 18px;
@@ -5165,7 +5171,7 @@
 
 }
 .btn-delete-topic{
-	background-color: #FF0000 !important;
+	background-color: #fb8401 !important;
 	text-align: center;
 	font-weight: 600 !important;
 	border: 1px solid !important ;
@@ -5351,7 +5357,7 @@
 
 .active-qa{
 	color: white !important;
-	background: #EE1C46;
+	background: #e38f06;
 	border-radius: 5px;
 
 }
@@ -5378,7 +5384,7 @@
 .wraper-contact-panel .school-contact{
 	font-size: 22px;
 	font-weight: 600;
-	color: red;
+	color: orange;
 }
 .wraper-contact-panel .address{
 	font-size: 16px;
@@ -5468,7 +5474,7 @@
 }
 .show-detail-calendar{
 	width: 100%;
-	color: red;
+	color: orange;
 	cursor: pointer;
 	margin-top: 10px;
 	font-size: 15px;
@@ -5531,7 +5537,7 @@
 	width: 50px;
 	height: 2px;
 	content:'';
-	background: red;
+	background: orange;
 	left: 0;
 	bottom: 0px;
 }
@@ -5832,7 +5838,7 @@
 	}
 	.second-header-panel.is-mobile .navbar-nav-header-panel>li>button:hover
 	{
-		background:#AA1D2B;
+		background: #e38f06;
 	}
 	.content-panel-qa , .content-panel-qa .container{
 		padding: 7px;
@@ -5970,14 +5976,14 @@
 	margin-right: 15px;
 }
 .btn-search-diploma button{
-	background: #C61654;
+	background: rgba(251, 132, 1, 0.86);
 	color: white;
 	border: 1.3px solid #E5ECF6;
 	padding: 7px 10px;
 	border-radius: 5px;
 }
 .list-item-search .item .item-search div:first-child span{
-	color: red;
+	color: orange;
 }
 .list-item-search .item .item-search input{
 	padding: 5px 10px;
@@ -6037,7 +6043,7 @@
 	border: 2px solid #E5ECF6;
 }
 .header-search-dilopma{
-	background: #C61654;
+	background: rgba(251, 132, 1, 0.94);
 }
 .table-show-result tr td:nth-child(2){
 	text-align: left;
@@ -6374,7 +6380,7 @@
 	top: 10px;
 	right: 45px;
 	text-align:center;
-	background-color: red; /* Adjust the background color for the badge */
+	background-color: orange; /* Adjust the background color for the badge */
 	color: white; /* Adjust the text color for the badge */
 	font-size: 12px;
 	font-weight: bold;
@@ -6569,7 +6575,7 @@
 	width: 30px;
 	height: 30px;
 	padding: 0 !important;
-	background: red !important;
+	background: orange !important;
 }
 .custom-panel-teaching{
 	display: grid !important;
@@ -6937,13 +6943,13 @@
 	font-size: 20px;
 	margin: 10px 0;
 	font-weight: 600;
-	color: #9b0504;
+	color: #e38f06;
 }
 .content-table-form table{
 	height: 100%;
 }
 .important-text-admission{
-	color: red;
+	color: orange;
 }
 .custom-vhvl-list-item-profile{
 	padding-bottom: 100px;
@@ -7038,10 +7044,10 @@
 	color: green;
 }
 .title-change-lecture  span:nth-child(2){
-	color: red;
+	color: orange;
 }
 .th-table-lecture{
-	background: #9b0504;
+	background: rgba(251, 132, 1, 0.86);
 	color: #d8e533;
 	padding: 5px 20px !important;
 	text-align: center;
@@ -7198,7 +7204,7 @@
 	background: #3843b5;
 }
 .pagi-open-class-panel .active{
-	background: #9b0504;
+	background: rgba(251, 132, 1, 0.94);
 }
 .note-panel-staff-detail{
 	width: 100%;
@@ -7258,7 +7264,7 @@
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #aa1c2b;
+	color: #e38f06;
 }
 .custom-date-picker-by-form .dropdown-menu{
 	position: unset;
@@ -7382,7 +7388,7 @@ span.my_status.enable {
 
 .admission-code-popup .modal-header .gwt-HTML b {
 	font-size: 18px !important;
-	color: #C72434 !important;
+	color: rgba(251, 132, 1, 0.86) !important;
 }
 
 .overflow-scroll {
@@ -7425,7 +7431,7 @@ span.my_status.enable {
 }
 
 .color-red {
-	color: red;
+	color: orange;
 }
 
 .admission-scroll-view {
@@ -7563,7 +7569,7 @@ span.my_status.enable {
 	flex: 1;
 	width: calc(50% - 30px);
 	padding: 10px;
-	border: 1px solid brown;
+	border: 1px solid rgba(251, 132, 1, 0.94);
 	border-radius: 10px;
 }
 
